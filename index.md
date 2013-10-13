@@ -4,17 +4,19 @@ title: Hello World!
 tagline: Supporting tagline
 ---
 
-我是一位程序员，主要从事Ruby开发，目前就职于成都奥震电子科技有限公司  
-平时主要研究[Ruby](https://www.ruby-lang.org/)，[Clojure](http://clojure.org/)编程语言，对AI(人工智能)比较感兴趣  
-常年活跃在[Github](https://github.com/)，[Ruby China](http://ruby-china.org/)中  
-
-***
-
+我是一名目前就职于[成都奥震电子科技]()的Ruby程序员,同时也是[@小山-轩雨](http://weibo.com/u/2629871573)的男朋友  
+活跃于[Github](https://github.com/)，为开源项目做贡献  
+活跃于[Ruby China](http://ruby-china.org/)中,支持Ruby在中国的发展  
+我比较感兴趣的：
 <ul class="posts">
-  {% for post in site.posts %}
-    <li>
-    <!-- <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> -->
-     <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
+  <li>Ruby</li>
+  <li>Clojure</li>
+  <li>Artificial Intelligence</li>
+  <li>Vim</li>
+  <li>Linux</li>
+  <li>Testing</li>
+  <li>钓鱼</li>
 </ul>
+
+<img class="avatar-image" src="./avatar.jpg"/>
+***
