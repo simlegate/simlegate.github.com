@@ -9,7 +9,7 @@ tags: [STOMP, MQ]
 原文: [STOMP Protocol Specification, Version 1.2](http://stomp.github.io/stomp-specification-1.2.html)
 
 ## 摘要
-STOMP是一个简单的协作协议被用于通过中间服务器在客户端之间进行消息传递。它定义了一种在客户端与服务端进行消息传递的有线格式文本.  
+STOMP是一个简单的可互操作的协议, 被用于通过中间服务器在客户端之间进行异步消息传递。它定义了一种在客户端与服务端进行消息传递的文本格式.  
 
 STOMP已经被使用了很多年，并且支持很多消息`brokers`和客户端库。这个规范定义STOMP `1.2`协议以及对`1.1`版本的更新。
 
