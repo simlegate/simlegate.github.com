@@ -3,7 +3,7 @@ layout: post
 title: "Rails加载gems的方式"
 description: ""
 category: ""
-tags: [Rails Gem Bundler]
+tags: [Rails, Gem, Bundler]
 ---
 {% include JB/setup %}
 
