@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Hello World
+tagline: 代码源于生活，从做人开始
 ---
 
 我是一名目前就职于[成都奥震电子科技]()的Ruby程序员,同时也是[@小山-轩雨](http://weibo.com/u/2629871573)的男朋友  
