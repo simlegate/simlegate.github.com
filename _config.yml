@@ -8,7 +8,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : simlegate
+title : 玄苦大师的代码
 tagline: Site Tagline
 author :
   name : simlegate
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://simlegate.github.io
+production_url : http://simlegate.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -74,6 +74,7 @@ JB :
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
+  projects_path : /projects.html
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
