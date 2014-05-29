@@ -70,3 +70,15 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+/**********************************************
+ * custom css
+**********************************************/
+
+.content h3, .content h2 {
+  border-bottom: 1px solid #eeeeee
+}
+
+.content ul li {
+  line-height: 30px;
+}
