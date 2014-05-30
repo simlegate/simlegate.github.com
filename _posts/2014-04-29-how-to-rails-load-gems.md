@@ -11,7 +11,7 @@ tags: [Rails, Gem, Bundler]
 
 ### Rails加载gems到LOAD_PATH
 
-# app/config/boot.rb
+    #  app/config/boot.rb
 
     require 'rubygems'
         
