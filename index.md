@@ -9,7 +9,7 @@ Ruby程序员一枚
 活跃于[Ruby China](http://ruby-china.org/),支持Ruby在中国的发展  
 我比较感兴趣的：
 
-  * Ruby
+  * Ruby/Java
   * Clojure
   * Artificial Intelligence
   * Vim

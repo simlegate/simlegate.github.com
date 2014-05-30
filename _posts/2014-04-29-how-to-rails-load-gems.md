@@ -10,17 +10,15 @@ tags: [Rails, Gem, Bundler]
 当我们在Rails项目中添加一个新的gem，我们不需要在Rails代码中使用`require <gem_name>`来引入gem，就可以直接使用，这是为什么呢？原来Rails用[Bundler](https://github.com/bundler/bundler)来管理gem依赖并且自动加载它们。
 
 ### Rails加载gems到LOAD_PATH
-{% highlight ruby linenos %}
 
 # app/config/boot.rb
 
-require 'rubygems'
-    
-# Set up gems listed in the Gemfile.
-ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile', __FILE__)
-    
-require 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])
-{% endhighlight %}
+    require 'rubygems'
+        
+    # Set up gems listed in the Gemfile.
+    ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile', __FILE__)
+        
+    require 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])
 
 这个文件将会在Rails启动的时候被执行，主要的功能就是找到项目根目录下的`Gemfile`，把`Gemfile`中的每一个gem的`lib`目录所在的路径加载到`$LOAD_PATH`常量中，为以后引入gems做准备。(**注意：这个时候gems还没有被require**)
 
