@@ -2,6 +2,7 @@
 layout: post
 title: "Rails加载gems的方式"
 description: ""
+comments: true
 category: ""
 tags: [Rails, Gem, Bundler]
 ---

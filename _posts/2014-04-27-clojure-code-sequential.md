@@ -2,6 +2,7 @@
 layout: post
 title: "Clojure源码分析之sequential?"
 description: ""
+comments: true
 category: ""
 tags: [Clojure]
 ---

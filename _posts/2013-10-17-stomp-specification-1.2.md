@@ -2,6 +2,7 @@
 layout: post
 title: "STOMP协议规范"
 description: "STOMP1.2协议规范"
+comments: true
 category: ""
 tags: [STOMP, MQ]
 ---

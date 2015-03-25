@@ -2,6 +2,7 @@
 layout: post
 title: "[译文]Clojure之惰性"
 description: "Clojure之惰性"
+comments: true
 category: ""
 tags: [Clojure, Laziness]
 ---

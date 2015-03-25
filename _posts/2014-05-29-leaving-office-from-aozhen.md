@@ -2,6 +2,7 @@
 layout: post
 title: "辞去人生中的第二份工作"
 description: ""
+comments: true
 category: ""
 tags: []
 ---
